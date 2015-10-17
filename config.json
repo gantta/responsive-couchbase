@@ -1,0 +1,29 @@
+{
+    "couchbase": {
+        "endPoint": "localhost:8091",
+        "n1qlService": "localhost:8093",
+        "hostName": "127.0.0.1",
+        "bucket": "luxe",
+        "user": "Administrator",
+        "password": "Jc~P#vi4mno?^r",
+        "dataPath": "",
+        "indexPath": "",
+        "indexType": "gsi",
+        "showQuery": false,
+        "indexMemQuota": 2048,
+        "dataMemQuota": 1024,
+        "thresholdItemCount": 31565
+    },
+    "application": {
+        "autoprovision": true,
+        "hostName": "localhost",
+        "httpPort": 3401,
+        "dataSource": "embedded",
+        "wait": 3000,
+        "checkInterval": 1000,
+        "verbose": false,
+        "distanceCostMultiplier": 0.1,
+        "avgKmHr": 800,
+        "hashToken": "UNSECURE_SECRET_TOKEN"
+    }
+}

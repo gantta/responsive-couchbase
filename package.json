@@ -1,0 +1,32 @@
+{
+  "name": "luxe",
+  "version": "0.0.1",
+  "description": "Sample Application for Couchbase, Node.js, Angular, Express, Bootstrap",
+  "homepage": "localhost:3401",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gantta/luxe.git"
+  },
+  "license": "Apache2",
+  "author": {
+    "name": "Adam Gantt",
+    "email": "gantta@gmail.com"
+  },
+  "dependencies": {
+    "express": "*",
+    "couchbase": "*",
+    "body-parser": "*",
+    "progress":"*",
+    "request": "*",
+    "jsonwebtoken":"*",
+    "haversine":"*",
+    "faye":"*",
+    "ottoman":"git+https://github.com/couchbaselabs/node-ottoman.git"
+  },
+  "contributors": [
+    {
+      "name": "Adam Gantt",
+      "email": "gantta@gmail.com"
+    }
+  ]
+}
